@@ -28,4 +28,4 @@ List of environment variables:
 |`EXPECTED_CLIENT_SECRET`|`dummy-client-secret`|The [client secret](https://tools.ietf.org/html/rfc6749#section-2.3.1) which your SUT should send to the OAuth2 server in access token requests.|
 |`AUTH_REQUEST_PATH`|`/o/oauth2/v2/auth`|The HTTP path of the OAuth2 [authorization endpoint](https://tools.ietf.org/html/rfc6749#section-3.1) which the fake server listens on|
 |`ACCESS_TOKEN_REQUEST_PATH`|`/oauth2/v4/token`|The HTTP path of the [access token request](https://tools.ietf.org/html/rfc6749#section-4.1.3) which the fake server listens on|
-|`PERMITTED_REDIRECT_URLS`|`http://localhost:8181/auth/login`|comma-separated list of permitted [redirection endpoints](https://tools.ietf.org/html/rfc6749#section-3.1.2)|
+|`PERMITTED_REDIRECT_URLS`|`http://localhost:3000/callback`|comma-separated list of permitted [redirection endpoints](https://tools.ietf.org/html/rfc6749#section-3.1.2)|
